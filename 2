@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class equation{
+	public static void main(String [] args) {
+	float a;
+	float b;
+	float c;
+	float discriminant;
+	
+	Scanner scan = new Scanner(System.in);
+	System.out.println("a ?");
+	a = scan.nextFloat();
+
+	System.out.println("b ?");
+	b = scan.nextFloat();
+
+	System.out.println("c ?");
+	c = scan.nextFloat();
+
+	discriminant= b*b-4*a*c;
+	System.out.println(discriminant);
+	
+	}
+}
